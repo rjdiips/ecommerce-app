@@ -1,33 +1,98 @@
-🛒 E-Commerce App
+# 🛒 E-Commerce App  
 
-A modern full-stack e-commerce web application built with React + Vite, featuring product browsing, filtering, and a responsive design.
+A modern full-stack e-commerce web application built with **React + Vite**, featuring product browsing, filtering, and a responsive design.  
 
-🚀 Features
+---
 
-🛍️ Browse products by categories and sub-categories
+## 🚀 Features  
 
-🔎 Search & filter products
+- 🛍️ Browse products by categories and sub-categories  
+- 🔎 Search & filter products  
+- ⭐ Best sellers & latest collections sections  
+- 🛒 Add to cart & checkout flow (WIP)  
+- 📱 Fully responsive (mobile-first with Tailwind CSS)  
+- ⚡ Fast development with Vite  
+- 🎨 Clean UI with reusable components  
 
-⭐ Best sellers & latest collections sections
+---
 
-🛒 Add to cart & checkout flow (WIP)
+## 🛠️ Tech Stack  
 
-📱 Fully responsive (mobile-first with Tailwind CSS)
+- **Frontend:** React, Vite, Tailwind CSS  
+- **State Management:** React Context API  
+- **Routing:** React Router DOM  
+- **Icons & Assets:** Custom SVGs, local assets  
+- **Linting/Formatting:** ESLint, Prettier  
 
-⚡ Fast development with Vite
+---
 
-🎨 Clean UI with reusable components
+## 📂 Project Structure  
 
-🛠️ Tech Stack
+```
+ecommerce-app/
+│── frontend/             # React + Vite frontend
+│   ├── public/           # Static assets
+│   ├── src/
+│   │   ├── assets/       # Images, icons
+│   │   ├── components/   # Reusable UI components
+│   │   ├── context/      # ShopContext (global state)
+│   │   ├── pages/        # Page components (Home, Collection, About, etc.)
+│   │   └── App.jsx       # Root React component
+│   └── package.json
+│
+└── forever-assets/       # Admin assets (SVGs, icons)
+```
 
-Frontend: React, Vite, Tailwind CSS
+---
 
-State Management: React Context API
+## ⚙️ Installation & Setup  
 
-Routing: React Router DOM
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ecommerce-app.git
+   cd ecommerce-app/frontend
+   ```
 
-Icons & Assets: Custom SVGs, local assets
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Linting/Formatting: ESLint, Prettier
+3. Run development server:
+   ```bash
+   npm run dev
+   ```
 
-📂 Project Structure
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📸 Screenshots  
+
+*(Add screenshots of your UI here — homepage, product listing, filters, etc.)*  
+
+---
+
+## 🔮 Roadmap  
+
+- [ ] User authentication (login/signup)  
+- [ ] Shopping cart & checkout  
+- [ ] Order history page  
+- [ ] Admin dashboard for product management  
+- [ ] API backend integration  
+
+---
+
+## 🤝 Contributing  
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork this repo and submit a PR.  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
