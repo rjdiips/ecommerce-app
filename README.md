@@ -73,7 +73,7 @@ ecommerce-app/
 ## 📸 Screenshots  
 
 *(Add screenshots of your UI here — homepage, product listing, filters, etc.)*  
-<img src="screenshots/home.png" alt="Homepage Screenshot" width="600">
+<img src="screenshots/home.png" alt="Homepage Screenshot" width="full">
 
 
 ---
