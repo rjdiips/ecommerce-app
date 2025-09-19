@@ -21,3 +21,21 @@ a.active hr {
     color: white;
   }
 }
+
+.border-t {
+  border-color: #e5e7eb;
+}
+
+/* 
+*,
+:before,
+:after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+} */
