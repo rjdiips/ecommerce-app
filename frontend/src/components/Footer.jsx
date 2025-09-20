@@ -10,9 +10,7 @@ const Footer = () => {
           <p className="w-full md:w2/3 text-gary-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             aliquam ut odio ac posuere. Donec eu dolor tincidunt nibh dictum
-            eleifend ac sed quam. Integer neque nisi, mollis vitae venenatis in,
-            pulvinar efficitur urna. Vestibulum quis ipsum sit amet magna
-            tincidunt luctus.
+            eleifend ac sed quam.
           </p>
         </div>
         <div>
@@ -33,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <hr />
+        <hr className="border-gray-200" />
         <p className="py-5 text-sm text-center">
           Copyright 2025 @ forever.com - All Right Reserved
         </p>
