@@ -88,15 +88,15 @@ ecommerce-app/
 - [ ] Admin dashboard for product management
 - [ ] API backend integration
 
----
+<!-- ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!  
+Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a PR.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**. -->
