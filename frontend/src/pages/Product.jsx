@@ -10,7 +10,6 @@ const Product = () => {
   const [productData, setProductData] = useState(false);
   const [image, setImage] = useState("");
   const [size, setSize] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
 
   const fetchProductData = async () => {
     products.map((item) => {
@@ -23,29 +22,15 @@ const Product = () => {
   };
 
   useEffect(() => {
-    // Start loading transition
-    setIsLoading(true);
-
     // Clear previous size selection
     setSize("");
 
     // Fetch new product data
     fetchProductData();
-
-    // End loading transition after content loads
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 300);
-
-    return () => clearTimeout(timer);
   }, [productId, products]);
 
   return productData ? (
-    <div
-      className={`border-t border-gray-200 pt-10 transition-all duration-500 ease-in-out transform ${
-        isLoading ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
-      }`}
-    >
+    <div className="border-t border-gray-200 pt-10">
       {/* ---------- Product Data --------- */}
       <div className="flex gap-12 sm:gap-12 flex-col sm:flex-row">
         {/* ---------- Product Images ---------- */}
