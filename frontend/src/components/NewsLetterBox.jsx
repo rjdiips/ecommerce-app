@@ -10,12 +10,12 @@ const NewsLetterBox = () => {
       <p className="text-2xl font-medium text-gray-800">
         Subscribe now and get 20% off
       </p>
-      <p className="text-gray-400 mt-3">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <p className="text-gray-500 mt-3">
+        Be the first to know about new arrivals, sales & promos!
       </p>
       <form
         onSubmit={onSubmitHandler}
-        className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border border-gray-400 pl-3"
+        className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border border-gray-500 pl-3"
       >
         <input
           className="w-full sm:flex-1 outline-none"
